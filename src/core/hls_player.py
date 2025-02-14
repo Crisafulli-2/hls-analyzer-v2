@@ -3,6 +3,7 @@ import Foundation
 import objc
 from typing import Optional, Dict, List
 
+#Adding a class to handle HLS streaming using AVFoundation
 class HLSPlayer:
     def __init__(self):
         """Initialize AVFoundation player for HLS streaming"""
